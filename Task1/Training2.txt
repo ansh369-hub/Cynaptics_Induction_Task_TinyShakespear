@@ -1,0 +1,74 @@
+Training2
+
+
+batch_size = 32 # how many independent sequences will we process in parallel?
+block_size = 256 # what is the maximum context length for predictions?
+max_iters = 1500
+eval_interval = 300
+learning_rate = 3e-4
+device = 'cuda' if torch.cuda.is_available() else 'cpu'
+eval_iters = 50
+n_embd = 128
+n_head = 4
+n_layer = 4
+dropout = 0.40
+
+13.740625 M parameters
+step 0: train loss 10.8243, val loss 10.8231
+step 300: train loss 5.2549, val loss 5.5166
+step 600: train loss 4.4777, val loss 5.0633
+step 900: train loss 4.1318, val loss 4.9103
+step 1200: train loss 3.8607, val loss 4.8924
+step 1499: train loss 3.6245, val loss 4.8936
+!
+'er lies
+By all the abundant did assembled:
+Play worsclthese that the men of these tent, I do Errors
+you stay here.
+Have your good thanks. You in the matter
+SecondAnd what
+Too enemies. But, I weighward. You do threat
+Come, sir. Rise, not not neglected eyes, stand, you know, BOLANESS OF YORK: amen to think me, I could,
+He's brave fault, I'll have some stainlessot too much of this newside and long consent's Rutland,
+And the air. fool's face? an officer?
+
+
+DUCHIO:
+O most your heavy be so still his mistress'en'd and cold Camillo,
+Had you talk's satbs, and Romeo,
+As never walk'd the physician:
+Resacew'd country's lands I have yet you not,
+Thou, veriest lord, come to both parties of theOMPEY: playors.
+MARABELLA:
+ANGELO:
+ culp us for us yet it it are they
+As he that is kind lap of good
+Nor, 'Tentans.
+Leave off lookmaster
+That I'll believe your grace, is as you fitted; away:
+It is more than what,
+And by the chastity.
+First Citizen:
+Richard knows in the foe; called this old Cuomo would I'll return.
+You must set them to the relayed your love a helm and ten year, now,
+Go, and as the special head in our children the remembrance MEN
+
+Die:
+Shall I know it out of my fairest.
+
+JULINA:
+Because she none in my doubtless;
+What so way born? I never meanuses for the skursed, why,
+Can take orderpp'd with Angelo?
+
+Have end of tears are fellow as the deadly voice;
+His son of two the doth brow,
+As I know the Earl of pert beard falls upon your brother of me from end:
+As should buy a very way.
+
+
+CORI will; but a vision a hopeful loyal chamber instantly bound,
+Such honour and old man or rather so
+And for this language him and Dion,Thus have you
+And learnt it: the king, the Emperor of all toTA:
+Or will morn to speed you set,

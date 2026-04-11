@@ -1,0 +1,78 @@
+Training3
+
+batch_size = 32 # how many independent sequences will we process in parallel?
+block_size = 128 # what is the maximum context length for predictions?
+max_iters = 1500
+eval_interval = 500
+learning_rate = 3e-4
+device = 'cuda' if torch.cuda.is_available() else 'cpu'
+eval_iters = 50
+n_embd = 64
+n_head = 4
+n_layer = 4
+dropout = 0.50
+
+6.690641 M parameters
+step 0: train loss 10.8283, val loss 10.8277
+step 500: train loss 5.5866, val loss 5.7700
+step 1000: train loss 4.6787, val loss 5.1385
+step 1499: train loss 4.2717, val loss 4.9167
+
+! when
+w threshold, her take that they have a quick one sister. There know I the doth inEL:
+Be your with death.
+
+But when he would but as Hear me that! Romeo's scrapes:
+Our waning that you woo of rude, no heart myself,
+IETy?
+KINGomatic for yoururthoughtior worst of a voices, to hope, no as
+ifter thoughts
+Guven climb thou lovest forward are food it madam as if you know to be mercest into thyORY: an Easter!
+
+COMINCE EDWARDea, there my grief you know all the life,
+ That fitferia and men
+Than;
+That doubt not tell us.
+
+
+
+Down. f these hearing their spray put as we mayst it seize him still.
+
+IUS:
+
+Break bone
+My647; the men do itle hoped us question to the running advised; and my father'sself?
+Hark. O this sea?
+
+
+CUTIO:
+
+LEONTESTER:
+And, I was a safeguardol'erOLINGHAM:
+I shall be one:
+Likee, so- sounded.
+EX ship,
+CUTONTES:
+Whyhip, he, that would not our disappears wast I love and, very doth come to say your fight, for this idle state,
+scian greatest her by ClarenceendsI amence,
+And not stop for fillman:
+And then, see I Thou art I stern.
+
+
+Kurheen the leisure up, bear this twenty against these looks
+From aggress of beside that ever would speak it nor't be no life.
+KING HENoldly as land.
+
+You, what our land and good sovereign, he will cannot behold:
+First Citizen: one, crack mylyWord;
+but no great great.
+
+And moreful
+As Barn's constant army in dust:
+VOLIO:
+All an evil,--His dog, man! services will not many degree be cease, we piece of it. cont being humble heel
+Marry, madam, as save your stretches now then you come;
+He'll meet; or ever he is very to themselves:
+Come, I must be not call me;
+And as all
+And Richard, their pipes on back to die, my
