@@ -131,24 +131,5 @@ LoRA: Instead of updating 774 million parameters, I froze the base model and tra
 ---
 
 ## 📝 Sample Outputs
-(After running inference.py, paste your 3 required sample outputs here to prove the model works!)
 
-Test 1: Instruction without Input
-
-Instruction: What is a digital identity and why is it important?
-
-Assistant: [Paste output here]
-
-Test 2: Instruction with Input
-
-Instruction: Summarize the following text.
-
-Input: Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a gas giant with a mass more than two and a half times that of all the other planets in the Solar System combined, but slightly less than one-thousandth the mass of the Sun.
-
-Assistant: [Paste output here]
-
-Test 3: Custom Generation
-
-Instruction: [Write your own instruction]
-
-Assistant: [Paste output here]
+refer to image in results folder
