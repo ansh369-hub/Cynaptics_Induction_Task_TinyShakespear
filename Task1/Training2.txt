@@ -1,8 +1,8 @@
 Training2
 
 
-batch_size = 32 # how many independent sequences will we process in parallel?
-block_size = 256 # what is the maximum context length for predictions?
+batch_size = 32 
+block_size = 256 #
 max_iters = 1500
 eval_interval = 300
 learning_rate = 3e-4
