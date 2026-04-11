@@ -132,4 +132,4 @@ LoRA: Instead of updating 774 million parameters, I froze the base model and tra
 
 ## 📝 Sample Outputs
 
-refer to image in results folder
+refer to results ([image]"!(https://github.com/ansh369-hub/Cynaptics_Induction_Task_TinyShakespear/blob/main/Task2/results/image.png)")
