@@ -1,0 +1,236 @@
+Training4(Using character level tokenizer)
+batch_size = 32 # how many independent sequences will we process in parallel?
+block_size = 256 # what is the maximum context length for predictions?
+max_iters = 10000
+eval_interval = 500
+learning_rate = 3e-4
+device = 'cuda' if torch.cuda.is_available() else 'cpu'
+eval_iters = 50
+n_embd = 128
+n_head = 4
+n_layer = 4
+dropout = 0.20
+
+0.841281 M parameters
+step 0: train loss 4.1624, val loss 4.1611
+step 500: train loss 2.3799, val loss 2.3997
+step 1000: train loss 1.8986, val loss 1.9964
+step 1500: train loss 1.6831, val loss 1.8595
+step 2000: train loss 1.5936, val loss 1.7722
+step 2500: train loss 1.5160, val loss 1.7215
+step 3000: train loss 1.4943, val loss 1.7032
+step 3500: train loss 1.4485, val loss 1.6611
+step 4000: train loss 1.4286, val loss 1.6475
+step 4500: train loss 1.4026, val loss 1.6282
+step 5000: train loss 1.3905, val loss 1.6070
+step 5500: train loss 1.3773, val loss 1.5955
+step 6000: train loss 1.3574, val loss 1.5680
+step 6500: train loss 1.3567, val loss 1.5798
+step 7000: train loss 1.3421, val loss 1.5721
+step 7500: train loss 1.3290, val loss 1.5473
+step 8000: train loss 1.3301, val loss 1.5504
+step 8500: train loss 1.3041, val loss 1.5552
+step 9000: train loss 1.3084, val loss 1.5324
+step 9500: train loss 1.2925, val loss 1.5375
+step 9999: train loss 1.2919, val loss 1.5284
+
+
+NORTHUMBERLAND:
+Sy, be this to the liguniors of grow.
+
+ROMEO:
+I time from thy life, off if me have
+want a like of our yight--the look-fill-stake
+to lickly coonside. cel mine, his doubt so
+lie to on other side for isle.
+
+ROMEO:
+Ay, he is a manners beamed, cannot free ithere
+terrs! I have if troubt, and to this agave,
+ifr than I, sir, and banish your was; skeeternly
+dreapon of it there; I hope, but you had. Comer:
+you have repur you do
+our quench. Lords madam, out we be gone, am fine his thidugh?
+
+O'er there sa I go; forgive young for your bathm.
+3 KINGHENRY VI:
+Yea, yet on, and I fother'st thou like thorn?
+
+First Gentleman:
+Nay, then foom's please no the Angry
+as the heaven a tone; baside in the man and wrong
+what I but comes to you.
+
+LEONTES:
+Then, but it who, God sent of cousie.
+Thou warry thou attem, which bitter it not flitted: now
+withorid her law and ready this Iowith hweless
+dare the my kind of your voice, being purges,
+we'll the sleep the knocking, throw'd murdernances. My lord; to the mores excure. For you
+before I am here resured. They he son is
+receed, be did it so I deliver it; and n,
+go whith confess, and his that would bid reid, wrrow instend, master
+than was here. But not?
+
+VOLET:
+Feine hither, torthan here.
+
+VICENTIOLA:
+Trust mouthn shield all i the oation.
+
+Third Citizen:
+I wars
+did not here, sir; and though his thought most awa?
+
+Volsce:
+He cann to the much wenter of their suth hours.
+
+TRANIO:
+That, sir, here an I hard of that say the give of Pature
+to lefter sains in and me to her:
+If is it fine seen't agad bladons ruie,
+To draw to so. Vill I wert take it; the time
+Thank of rue limb stole as deed to be. When I looks;
+The take me that the wish, I had no hertcompering me;
+For young about mortens the world of do
+All lords, make with the world crose, on mine is
+Contengers we nothingshing joy took to you.
+
+Hird PutUS:
+If this pleach a good powers!
+
+AUTOLYCUSTER:
+I know? have, I have man parky:'
+'But I have I had, when go, have I princed,
+Every ever folly letters dish most; but 'tis break'd;
+I'll blad inform age
+No sure deurst it, inferive; then turn will know indeed walld
+Have heres, with banish drum shipply, my grace,
+
+THOMAS MOWBRAY:
+She is we is, know?
+
+GLOUCESTER:
+Resch more:
+My leave: biod, my lady, unsure and woe
+He say you, I have loss in reamous,
+Be duke the wis altery of even or Vaugham,
+His centily is bram hence to me;
+To Briedw, prayed, night look, and on Richmond.
+What will our recoves? she hothers of his fourt
+You?
+
+CISABELLA:
+That natisk the king. Hark! speak himself, here is your eleves?
+
+Please:
+You speak cannot amb the king: I have so loved.
+
+JULIET:
+I will not that your provel is.
+
+QUEEN:
+But you anexed?
+
+Lord:
+What't saw you conforul one: what cusade it set the need
+For is nothing. Or that, come eldemth share you:
+And so give gainst retires with you prove you;
+Now folly no, your eat, methorit of maid?
+
+RICHARD:
+Amen the stark gentle would broom more to beaute,
+Gives unto forth and penaught loverior that
+As fear a slave; as mait pour game all these take and 'this
+To be homble a cortrasing.
+
+LEONTES:
+Muster, this secroward come the shorrows.
+
+Yea, let's my ries inforce extong behunds
+The should stresty: underth'd
+As this ade, that is here; for me I was but on them.
+
+BRUUCHISTH.
+
+GREMIO:
+The lass at all o'twere tongue: you base, steal
+If do with her pretise my heir; in elder kind.
+Will, Sir Hermio Marcial of mades for Dio?
+
+AUDIO:
+Excup; the desirest child, is heavenes
+the got.
+
+WARWICK:
+When we much irm us. My live, and it, sirraw he
+wise his could. Go, how I do to defur of GoveMBERLET:
+So fault Curteo be delige of. O,
+young follow my brother; 'but to dow it us? you have you
+have for too made these made the
+denit, she like us with the herible. Were as there.
+Your heir be word power ustor meation, he have bloody ure grow, and this set im
+wanou speak: if it I have take the own ach, the son
+veised of the newer painted till make thee after
+from our fired aginst her here them I had.
+
+AUTOLYCUS:
+Nor Rome: like it be.
+
+Please man:
+Therefore we carries the world hath dener trumped
+it in the chaselest to enter's armanful.
+
+Pleash:
+
+CORIOMEO:
+O, I have me to equick a sir;
+And we I see him sleep,
+Oearchenticty thes offer repound to the heave,
+And it and reply's by nolish wear, is mind,
+Where doth seek nor quick Capparextivent,
+Skeelf I did both a way.
+
+CAMILLO:
+Sir! at I to much none; I come is no that justice?
+'Ay, pray I shorture.
+The heartesty mays good wish.
+
+YORK:
+I cannot but, our fearies: 'tis full very aslees.
+Will hangily his tongue gadge:
+But, or his false heart at and to heaven!
+The rested's the woes touch? Way thy called:
+No, muth want work war, or comes mean.
+
+KING EDWARD IV:
+'ll't do find in't: jointenans.
+
+EXTON:
+Lende his gone liegest follower.
+I would they arm nothing when much baten sind.
+
+WARWICK: my liege to flies! whim good that art dine.
+
+LARTingage:
+How thou a tangue to movers.
+
+
+CLARENCE:
+Our veuints most dance or two see him!
+
+DUKE VINCENTIO:
+O, as why, the rempit is to-day!
+3 KING LEWARD not II:
+And thus safe, Clare Huntsal amas,
+Bech young and the exiles of the othy pity
+To his false: made not be neave-ply outh. Within sinquas imp,
+Tullution, when, if not shall be
+Stouch should nought: but once oursel breather;
+I am prison be a she no begant
+To all to runfer the him. Stanlesss
+Make 'beind that ineven one, yet orchiling;
+There chanry, and hones true to since,
+Kin the canst ave office: the call'd hithe;
+And slareve your son lies do murder. I see to bad
+'T
