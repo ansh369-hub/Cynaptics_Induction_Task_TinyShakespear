@@ -1,6 +1,7 @@
-Training4(Using character level tokenizer)
-batch_size = 32 # how many independent sequences will we process in parallel?
-block_size = 256 # what is the maximum context length for predictions?
+Training4 (Used character level tokenizer)
+
+batch_size = 32 
+block_size = 256 
 max_iters = 10000
 eval_interval = 500
 learning_rate = 3e-4
