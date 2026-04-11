@@ -65,17 +65,22 @@ Below is an instruction that describes a task. Write a response that appropriate
 1. Install Dependencies
 
 Bash
+```
 pip install torch transformers datasets peft tqdm
+```
 2. Run the Training Script
 (Note: Requires a GPU. The default configuration is optimized for an A100 or similar high-VRAM machine).
 
 Bash
+```
 python train.py
+```
 3. Run Inference
 
 Bash
+```
 python inference.py
-
+```
 ---
 
 ## 🏗️ Final Code Architecture
